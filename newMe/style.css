@@ -70,3 +70,13 @@ footer{
 hr{
     margin: 50px;
 }
+
+.grid{
+    margin: 50px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+grid-gap:20px;
+}
+.grid img{
+    width: 100%;
+}
