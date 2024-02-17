@@ -79,4 +79,18 @@ grid-gap:20px;
 }
 .grid img{
     width: 100%;
+
+}
+.grid img:hover{
+    transform: rotate(5deg);
+    width: 150%;
+
+}
+
+.three{
+    margin: 50px;
+    display: flex;
+}
+.three section{
+    padding: 50px;
 }
